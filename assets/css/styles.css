@@ -202,14 +202,34 @@ img {
   padding: 4rem 0 5rem;
 
 }
+.home-bg {
+  background-image: url('/Portfolio-main/assets/img/home-bg.jpg');
+  position: relative;
+}
+.home-bg::before{
+  background-color: #000333;
+    opacity: 0.96;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+  content: '';
+  display: block;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+
+}
 
 .home__data {
   align-self: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 
 .home__title {
   font-size: var(--big-font-size);
   margin-bottom: var(--mb-5);
+  color: #FFF;
 }
 
 .home__title-color {
@@ -219,25 +239,27 @@ img {
 .home__social {
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 
 .home__social-icon {
   width: max-content;
   margin-bottom: var(--mb-2);
   font-size: 1.5rem;
-  color: var(--second-color);
+  color: #FFF;
+
 }
 
 .home__social-icon:hover {
   color: var(--first-color);
 }
 
-.home__img {
+/* .home__img {
   position: absolute;
   right: 0;
   bottom: 0;
   width: 260px;
-}
+} */
 
 .home__blob {
   fill: var(--first-color);
@@ -548,11 +570,11 @@ work__container bd-grid{
     margin-right: auto;
   }
   .home {
-    padding: 10rem 0rem;
+    padding: 200px 0px 50px 0px;
   }
-  .home__img {
+  /* .home__img {
     width: 450px;
-  }
+  } */
 }
 .container {
     max-width: 100%;
