@@ -203,7 +203,7 @@ img {
 
 }
 .home-bg {
-  background-image: url('/Portfolio-main/assets/img/home-bg.jpg');
+  background-image: url('/assets/img/home-bg.jpg');
   position: relative;
 }
 .home-bg::before{
