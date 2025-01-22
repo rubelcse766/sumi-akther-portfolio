@@ -188,10 +188,19 @@ img {
 }
 
 /*===== HOME =====*/
+/* #home {
+  
+  padding: 0rem 0rem;
+  background-color: #000333;
+    opacity: 0.96;
+    transition: 0.3s, border-radius 0.3s, opacity 0.3s;
+
+} */
 .home {
   position: relative;
   row-gap: 5rem;
   padding: 4rem 0 5rem;
+
 }
 
 .home__data {
@@ -539,14 +548,14 @@ work__container bd-grid{
     margin-right: auto;
   }
   .home {
-    padding: 10rem 0 2rem;
+    padding: 10rem 0rem;
   }
   .home__img {
     width: 450px;
   }
 }
 .container {
-    max-width: 70%;
+    max-width: 100%;
     margin: 0 auto;
     height: 100%;
 }
@@ -568,7 +577,7 @@ work__container bd-grid{
 
 
 .card_img img {
-    width: 100%;
+    width: 70%;
     height: auto;
     border-radius: 20px;
 }
